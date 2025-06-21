@@ -4,7 +4,6 @@ These projects are performed on the DE1-SoC Computer with Nios V using simulatio
 CPUlator is a powerful and easy-to-use functional simulator that runs inside a web browser. It simulates the behavior of a whole computer system, including the processor, memory, and many types of I/O devices.
 
 This repository contains my implementations for RISC-V embedded systems, focused on low-level firmware development for the DE1-SoC FPGA board.
-
 These labs explore memory-mapped I/O, polling, hardware timers, and interrupt control using RISC-V assembly and NIOS V.
 
 ### Lab Overview
