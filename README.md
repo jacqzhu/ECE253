@@ -1,7 +1,7 @@
 # ECE253 Digital Systems Lab
 
-This repository contains my implementations for ECE253 Labs, which includes SystemVerilog and RISC-V.
-These labs explore memory-mapped I/O, polling, hardware timers, and interrupt control using RISC-V assembly and NIOS V.
+This repository contains my implementations for ECE253 on hardware design in SystemVerilog and RISC-V Assembly.
+These labs explore digital logic design, I/O, hardware timers, interrupts, and sequential control systems using NIOS V and ModelSim.
 
 ### Verilog Labs
 ALUs (Arithmetic Logic Units)
@@ -17,10 +17,14 @@ Counters
 - Explored ripple and modular counter designs with variable bit widths.
 
 ### RISC-V Labs
-I/O Polling & Timers
+Subroutines
+- Developed subroutines to modularize processor operations.
+- Implemented stack-based call and return logic using assembly.
+
+I/O Polling
 - Controlled on-board LEDs and pushbuttons via memory-mapped I/O.
 - Designed a basic counter system with dynamic control based on user input.
 
-Interrupt I/O
+I/O Interrupt
 - Replaced polling with interrupt service routines (ISRs).
 - Implemented preemptive control logic for responsive event handling.
